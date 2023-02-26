@@ -1,0 +1,86 @@
+{
+  "liveServer.settings.useWebExt": true,
+  "phpformatter.composer": true,
+  "phpformatter.arguments": ["--rules=@PSR2"],
+  "php.validate.executablePath": "",
+  "php.executablePath": "",
+  "VSCodeCounter.exclude": [
+    "**/.gitignore",
+    "**/.vscode/**",
+    "**/node_modules/**",
+    "**/downloads/**"
+  ],
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[smarty]": {
+    "editor.defaultFormatter": "aswinkumar863.smarty-template-support"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#A52ACE",
+    "statusBar.noFolderBackground": "#C842F5",
+    "statusBar.debuggingBackground": "#C842F5",
+    "badge.background": "#9322B9",
+    "activityBar.foreground": "#EFD7F7",
+    "activityBarBadge.foreground": "#EFD7F7",
+    "activityBarBadge.background": "#B13BD8"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "redhat.telemetry.enabled": false,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "editor.formatOnSave": true,
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "markdown-preview-enhanced.previewTheme": "github-dark.css",
+  "material-icon-theme.saturation": 1,
+  "workbench.iconTheme": "material-icon-theme",
+  "jupyter.themeMatplotlibPlots": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "svelte.plugin.svelte.note-new-transformation": false,
+  "excalidraw.theme": "auto",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.fontFamily": "'JetBrains Mono', monospace",
+  "editor.fontLigatures": true,
+  "editor.formatOnPaste": true,
+  "formatFiles.runOrganizeImports": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  }
+}
